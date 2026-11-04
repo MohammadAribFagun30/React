@@ -11,6 +11,8 @@ import {Title} from "./Title.jsx";
 
 import ProductTab from "./ProductTab.jsx";
 
+import MssgBox from "./MssgBox.jsx";
+
 // function Description()
 // {
 //  return  <h3>I am the description </h3>
@@ -20,7 +22,8 @@ function App() {
 
   return (
 
-    <div>
+    <>
+    <MssgBox username={"Arib 30"} textcolor={"white"}/>
 
       <h1>This is my app component </h1>
       <p>Hi, I am Fagun</p>
@@ -30,7 +33,7 @@ function App() {
       <ProductTab/>
 
 
-    </div>
+    </>
   )
 }
 
