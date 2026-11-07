@@ -2,8 +2,10 @@ import "./Product.css";
 
 function Product( { title, price, features  ,features2 } )
 {
+    // Array 
     // const list = features2.map( (feature) => <li> {feature} </li>  )
      
+    // Conditions
     let isDiscount = price > 20000 ? "Discount of  5%" : "";
 
     // Add CSS
@@ -24,14 +26,18 @@ function Product( { title, price, features  ,features2 } )
 
             <h5>Price : {price} </h5>
 
+            {/* Array pass */}
 
+            {/* type-1 */}
             {/* <p>Features : {features} </p> */}
 
-
+            {/* type-2 */}
             {/* <p>Attributes : {features2} </p> */}
 
+            {/* type-3 */}
             {/* <p>Attributes : {list} </p> */}
 
+            {/* type-4 */}
             {/* <p>
                 {
                  features2.map( (feature) => <li> {feature} </li> )
